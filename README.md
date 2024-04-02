@@ -11,8 +11,7 @@
 
 ## Herramienta Para Pruebas
 
-- Postman
-- Thunderclient
+- Postman o Thunder Client
 
 ## Pasos para poder arrancar la API
 
