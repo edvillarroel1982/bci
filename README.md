@@ -15,25 +15,35 @@
 
 ## Pasos para poder arrancar la API
 
-Los pasos que voy a describir a continuación corresponden a la configuración con el IDE de desarrollo Spring Tool Suite 4 (Eclipse).
+Clonar el Repositorio:
+Clona el repositorio del microservicio desde GitHub en tu máquina local.
 
-- Descargar el proyecto y descomprimir su contenido
-- Abrir el IDE de desarrollo (en mi caso Spring Tool Suite 4)
-- Ir a File->Import->Seleccionar “Existing Maven Projects”.
-- Clic en “Browse…” y seleccionar el proyecto.
-- Configurar Java y Maven desde las preferencias en el menú “Windows”
-- Ejecutar desde la consola posicionado en la ruta del proyecto.
 ```sh
-mvn clean package 
-``` 
-- Clic derecho en el proyecto “Run As→Spring boot app”
+git clone https://github.com/tu-usuario/bci-service.git
+```
+
+Configurar la Base de Datos:
+Asegúrate de tener una instancia de MySQL u otra base de datos compatible en tu sistema. Luego, configura las propiedades de conexión a la base de datos en el archivo application.properties ubicado en src/main/resources.
+
+Compilar el Proyecto:
+Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando para compilar el proyecto:
+
+```sh
+mvn clean install
+```
+
+Ejecutar el Servicio:
+Una vez compilado con éxito, puedes ejecutar el microservicio utilizando Maven. Ejecuta el siguiente comando:
+
+```sh
+mvn spring-boot:run
+```
+
 
 ## Pasos para poder consumir la API
 
 - Abrir Postman
 - Se debe abrir un nuevo request de tipo POST
-- Seleccionar opción body→raw→cambiar la opción text a JSON
-- Clic derecho en el proyecto “Run As→Spring boot app”
 - Luego pegar el JSON especificado en el documento en el input
 
 ```json
@@ -58,3 +68,9 @@ Si se desea verificar los datos guardados del usuario se debe ingresar a la cons
 http://localhost:8080/h2-console/
 Es necesario modificar las credenciales de acuerdo a la especificación en el archivo application.properties del proyecto.
 
+## Verificación de la Documentación de la API:
+Después de iniciar el servicio, puedes acceder a la documentación de la API y probar los endpoints utilizando Swagger. Abre un navegador web y visita la siguiente URL:
+
+```sh
+http://localhost:8080/swagger-ui.html
+``` 
