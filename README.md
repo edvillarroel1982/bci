@@ -25,7 +25,8 @@ git clone https://github.com/tu-usuario/bci-service.git
 
 Configurar la Base de Datos:
 
-Asegúrate de tener una instancia de MySQL u otra base de datos compatible en tu sistema. Luego, configura las propiedades de conexión a la base de datos en el archivo application.properties ubicado en src/main/resources.
+
+La base de datos estaba configurada para correr en memoria, es decir es una H2, caso contrario, asegúrate de tener una instancia de MySQL u otra base de datos compatible en tu sistema. Luego, configura las propiedades de conexión a la base de datos en el archivo application.properties ubicado en src/main/resources.
 
 Compilar el Proyecto:
 
