@@ -11,7 +11,8 @@
 
 ## Herramienta Para Pruebas
 
-- Postman v9.15.2
+- Postman
+- Thunderclient
 
 ## Pasos para poder arrancar la API
 
