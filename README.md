@@ -20,7 +20,7 @@ Clonar el Repositorio:
 Clona el repositorio del microservicio desde GitHub en tu máquina local.
 
 ```sh
-git clone https://github.com/tu-usuario/bci-service.git
+git clone https://github.com/edvillarroel1982/bci.git
 ```
 
 **Configurar la Base de Datos**
