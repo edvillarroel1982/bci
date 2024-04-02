@@ -46,7 +46,7 @@ mvn spring-boot:run
 Después de iniciar el servicio, puedes acceder a la documentación de la API y probar los endpoints utilizando Swagger. Abre un navegador web y visita la siguiente URL:
 
 ```sh
-http://localhost:8080/swagger-ui
+http://localhost:8080/swagger-ui/index.html
 ``` 
 
 ## Pasos para poder consumir la API
