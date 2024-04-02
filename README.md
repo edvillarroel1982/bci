@@ -2,7 +2,7 @@
 
 ## Requisitos
 
-- JDK 18 (Requiere declarar variables de entorno)
+- Java 17 (Requiere declarar variables de entorno)
 - Maven 3.8.5 (Requiere declarar variables de entorno)
 
 ## Herramienta de Desarrollo Utilizada
