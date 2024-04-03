@@ -81,6 +81,7 @@ http://localhost:8080/swagger-ui/index.html
 Si se desea verificar los datos guardados del usuario se debe ingresar a la consola h2 del proyecto por medio de la url
 http://localhost:8080/h2-console/
 Es necesario modificar las credenciales de acuerdo a la especificación en el archivo application.properties del proyecto.
+
 El script de base de datos se encuentra en: 
 
 ```sh
